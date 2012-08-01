@@ -1,0 +1,437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"true",
+				"true"
+			],
+			[
+				"filter",
+				"filter_var"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"option",
+				"option_value"
+			],
+			[
+				"optio",
+				"option_index"
+			],
+			[
+				"wi",
+				"widget_pages"
+			],
+			[
+				"id",
+				"id_post"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"url",
+				"url_post_type"
+			],
+			[
+				"wid",
+				"widget_service"
+			],
+			[
+				"service",
+				"service_edit_columns"
+			],
+			[
+				"lab",
+				"labels"
+			],
+			[
+				"ser",
+				"service_args"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"remo",
+				"remove_screen_options"
+			],
+			[
+				"blog",
+				"bloginfo"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"tro",
+				"throw	Throw Exception"
+			],
+			[
+				"acce",
+				"access_token"
+			],
+			[
+				"curren",
+				"currency_id"
+			],
+			[
+				"client",
+				"client_secret"
+			],
+			[
+				"clien",
+				"client_secret"
+			],
+			[
+				"cline",
+				"client_secret"
+			],
+			[
+				"CLIENT_ID",
+				"client_id"
+			],
+			[
+				"clie",
+				"client_secret"
+			],
+			[
+				"the_post",
+				"the_post_thumbnail"
+			],
+			[
+				"require",
+				"require_once"
+			],
+			[
+				"res",
+				"resultArray"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"mysql",
+				"mysql_query"
+			],
+			[
+				"login",
+				"login_user_id"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/LESS-build/LESS.sublime-build",
+	"command_palette":
+	{
+		"height": 35.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/includes/chicon_functions.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/content-aside.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/estilos.css",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/sidebar-page.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/content-page.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/content-single.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/content-featured.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/page.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/estilos.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/content-page.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/sidebar-page.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/includes/custom_posts.php",
+		"/C/Users/Piquinikis/AppData/Roaming/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/single-eventos.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/content-single.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/single.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/notification.php",
+		"/C/xampp/htdocs/wordpress/wp-admin/edit.php",
+		"/C/xampp/htdocs/wordpress/wp-admin/post.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/header.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/pay.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/estilos.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/functions.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/chicon_functions.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/chicon_functions.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/custom_posts.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/content-aside.php",
+		"/C/Users/Piquinikis/Desktop/less/prueba.less",
+		"/C/Users/Piquinikis/Desktop/less/prueba.css",
+		"/C/Users/Piquinikis/AppData/Roaming/Sublime Text 2/Packages/LESS-build/LESS.sublime-build",
+		"/C/Users/Piquinikis/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/Freelance/Portfolio/Duyal/Repositorio/stylesheets/base.css",
+		"/D/Freelance/Portfolio/Duyal/Repositorio/stylesheets/skeleton.css",
+		"/D/Freelance/Portfolio/Duyal/Repositorio/estilos.css",
+		"/D/Freelance/Portfolio/Duyal/Repositorio/index.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/wp-config-sample.php",
+		"/C/Users/Piquinikis/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Freelance/Portfolio/Duyal/Repositorio/estilos.less",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/mail_buy_team.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/team_buy.html",
+		"/C/Users/Piquinikis/Desktop/classMercadopago.php",
+		"/C/Users/Piquinikis/Downloads/mercadolibre-mpsitetool-mplibrary-5a9f27f8b4b8218b71e9fc6f6e8bff13c9b8c24b/php/mercadopago.php",
+		"/C/Users/Piquinikis/Downloads/mercadolibre-mpsitetool-mplibrary-5a9f27f8b4b8218b71e9fc6f6e8bff13c9b8c24b/php/examples/CreatePreference.php",
+		"/C/Users/Piquinikis/Downloads/mercadolibre-mpsitetool-mplibrary-5a9f27f8b4b8218b71e9fc6f6e8bff13c9b8c24b/php/examples/GetPreference.php",
+		"/D/Freelance/Portfolio/Fiesta de descuentos/mercadopago",
+		"/D/Freelance/documentacion.php",
+		"/C/Users/Piquinikis/Downloads/mercadolibre-mpsitetool-mplibrary-5a9f27f8b4b8218b71e9fc6f6e8bff13c9b8c24b/php/examples/ReceiveIPN.php",
+		"/C/Users/Piquinikis/Downloads/mercadolibre-mpsitetool-mplibrary-5a9f27f8b4b8218b71e9fc6f6e8bff13c9b8c24b/php/examples/UpdatePreference.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/pay 2.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/single-interes.php",
+		"/D/Freelance/Portfolio/De Coulon/SimplePress/includes/featured.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/galerias.php",
+		"/D/Freelance/Portfolio/De Coulon/SimplePress/home.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/single-galerias.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/privacy.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/terms.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/faqs.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/about.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/tour.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/help_tour.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/language 2.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/language.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/application_top.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/sts_template.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/html_header.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/team_view.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/block_team_fbtwlike.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/team_index.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/team_multi.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/block_team_share.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/general.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/stylesheet.css",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/infobox.php.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/infobox_shopping_cart.php.html",
+		"/C/Users/Piquinikis/Downloads/facebook-php-sdk-6c82b3f/examples/example.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/index.css",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/block_side_others.html",
+		"/D/Freelance/Software y utilidades/Software/Wordpress/facebook/fb-open-graph.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/Rar$DI98.432/add_registro.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/Rar$DI92.432/get_link.php",
+		"/C/Users/Piquinikis/Downloads/facebook-php-sdk-6c82b3f/tests/tests.php",
+		"/C/Users/Piquinikis/Downloads/facebook-php-sdk-6c82b3f/examples/example.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/account_settings.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/account_signuped.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/signup.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/mcapi_listSubscribe.php",
+		"/C/Users/Piquinikis/Downloads/mailchimp-api-class/examples/mcapi_lists.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/mailer.php",
+		"/C/Users/Piquinikis/Downloads/mailchimp-api-class/examples/inc/MCAPI.class.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/config.inc.php",
+		"/C/Users/Piquinikis/Downloads/mailchimp-api-class/examples/mcapi_listSubscribe.php",
+		"/C/Users/Piquinikis/Downloads/mailchimp-api-class/examples/form.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/config.inc 2.php",
+		"/C/Users/Piquinikis/AppData/Local/Opera/Opera/temporary_downloads/form.php",
+		"/G/Proyectos/Wordpress/Los Arboles/header.php",
+		"/D/Freelance/Portfolio/Amitrac/Template/header.php",
+		"/C/Users/Piquinikis/Desktop/form.php",
+		"/C/Users/Piquinikis/Downloads/mailchimp-api-class/examples/mcapi_campaigns.php",
+		"/C/Users/Piquinikis/Downloads/mailchimp-api-class/examples/inc/config.inc.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/subscribe.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/manage_team_edit.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/edit.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/credit_index.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/account_signup.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/header.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/subscribe.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/credit_score.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/mail_subscribe_team.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/account_refer.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/refer.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/order_check.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/coupon_index.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/r.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/account_invite.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/invite.php",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/manage_misc_invite.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/block_side_invite.html",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/block_main_friendlink.html",
+		"/D/Freelance/Portfolio/Fiesta de descuentos/pass.txt",
+		"/C/Users/Piquinikis/AppData/Local/Temp/fz3temp-1/city.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"global $query;    	\n		    	$query = new WP_Query( \"post_type=service\" );\n		    	while( $query->have_posts()) : $query->the_post() ;",
+			"_wpnonce",
+			"langua",
+			"messageStack",
+			"langua",
+			"list",
+			"login_user_id",
+			"php",
+			"suscribe"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"heade",
+				"header.php"
+			],
+			[
+				"hea",
+				"header.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true
+}

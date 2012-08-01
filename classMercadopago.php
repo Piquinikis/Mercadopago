@@ -42,16 +42,26 @@ class classMercadopago {
 
 	/**
 	* ============================== Configura la API de Checkout ==============================
-	* @param $data (array)
-	* Seteo los datos del articulo
+	*
+	* Creacion del arreglo con los datos del producto, mantiene formato estipulado por mercadopago
+	* "items": [{
+    *    "id": "Código",
+    *    "title": "Nombre",
+    *    "description": "Descripción",
+    *    "quantity": 1,
+    *    "unit_price": 50,
+    *    "currency_id": "Tipo de moneda",// Argentina: ARS (peso argentino) ó USD (Dólar estadounidense); Brasil: BRL (Real).
+    *    "picture_url": "https://www.mercadopago.com/org-img/MP3/home/logomp3.gif"
+    * }],
+	* @param $data 
 	*/
-	private function set_data( $data )
+	private function set_data_items( $data )
 	{
 		if( !isset( $data['quantity'] ) || !isset( $data['currency_id']) || !isset( $data['unit_price'] ) )
 		{
 			trigger_error("Hay escases de datos");
 		}
-		$attributesArray = array(
+		$itemsArray = array(
 			'id' => $data['id'],
 			'title' => $data['title'],
 			'description' => $data['description'],
@@ -60,27 +70,55 @@ class classMercadopago {
 			'currency_id' => $data['currency_id'],
 			'picture_url' => $data['picture_url'], 
 			);  
-		return $attributesArray;
+		return $itemsArray;
 	}
 
 	/**
-	
+	* Datos del cliente que esta comprando el articulo 
+	*
+	* "payer": {
+    *    "name": "user-name",
+    *    "surname": "user-surname",
+    *    "email": "user@mail.com"
+    * },
+    * @param $array
 	*/
-	public function config_checkout($array)
+	public function set_data_payer( $array )
 	{
-		$token = getTokenID();
-		$items = array(
-			'title' => $title,
-	        'unit_price' => intval($money),
-	        'quantity' => 1,
-	        'currency_id' => 'ARS',	 
-		);
-		$back_urls = array(
-			'success' => 'http://www.fiestadedescuentos.com/order/pay.php?state=pay',
-		);
-		$post_data['items'] = array($items);
+		$payerArray = array(
+			'name' => $array['name'], 
+			'surname' => $array['surname'],
+			'email' => $array['email']
+			);
+		return $payerArray
+	}
+
+	/**
+	* "back_urls": {
+    *    "pending": "http://www.pending.com",
+    *    "success": "https://www.success.com"
+    * }
+	* @param $array
+	*/
+	public function set_data_backurls( $array )
+	{
+		$urlsArray = array(
+			'pending' => $array['pending'], 
+			'success' => $array['success'],
+			);
+		return $urlsArray
+	}	
+
+	/**
+	* Con todos los datos tomados y listos preparo el checkout de pago
+	* 
+	*/
+	public function config_checkout( $items, $payer, $back_urls )
+	{
+		$post_data['items'] = array( $items );
+		$post_data['payer'] = $payer;
 		$post_data['back_urls'] = $back_urls;    
-	    $url = "https://api.mercadolibre.com/checkout/preferences?access_token=".$token;
+	    $url = "https://api.mercadolibre.com/checkout/preferences?access_token=".$this->access_token;
 	    $handler = curl_init();
 	    curl_setopt($handler, CURLOPT_RETURNTRANSFER, true);
 	    curl_setopt($handler, CURLOPT_HTTPHEADER, array('Accept: application/json', 'Content-Type: application/json'));
@@ -89,6 +127,10 @@ class classMercadopago {
 	    $response = curl_exec($handler);
 	    curl_close($handler);
 	    $response = json_decode($response, true);
+	    /*
+	    * Se devuelve el id de la preferencia para poder consultar el estado de la operacion
+	    * mediante un JSON 
+	    */
 	    return $response['id'];
 	}
 
