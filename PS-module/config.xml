@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>mercadopago</name>
+	<displayName><![CDATA[Mercado Pago]]></displayName>
+	<version><![CDATA[1]]></version>
+	<description><![CDATA[Un modulo para pagar mediante MercadoPago]]></description>
+	<author><![CDATA[Daniel Russian]]></author>
+	<tab><![CDATA[payment_method]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
